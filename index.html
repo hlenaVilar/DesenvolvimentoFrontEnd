@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Gatos</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header class="bg-warning text-light py-4">
+        <div class="container">
+            <h1>Sobre Gatos</h1>
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Raças</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Comportamento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Corpo -->
+    <div class="container mt-4">
+        <section>
+            <h2>Introdução aos Gatos</h2>
+            <p>O gato doméstico (Felis catus) é um mamífero carnívoro da família Felidae, muito popular como animal de estimação em todo o mundo. Os gatos têm uma longa história de convivência com os humanos, sendo domesticados há milhares de anos.</p>
+            <img src="imgs\gato01.jpg" alt="Gato Doméstico">
+        </section>
+        <section>
+            <h2>Raças de Gatos</h2>
+            <p>Existem muitas raças diferentes de gatos, cada uma com suas próprias características físicas e comportamentais. Algumas das raças mais populares incluem o Siames, Persa, Maine Coon e Sphynx.</p>
+            <img src="imgs\gato02.jpg" alt="Gatos de Raças Diferentes">
+        </section>
+        <section>
+            <h2>Comportamento Felino</h2>
+            <p>Os gatos têm comportamentos únicos e fascinantes. Eles são conhecidos por sua agilidade, habilidades de caça e independência. Os gatos também são animais muito sociais, que podem formar laços fortes com seus donos.</p>
+            <img src="imgs\gato03.jpg" alt="Gato Demonstrando Comportamento Felino">
+        </section>
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="bg-warning text-light py-3 mt-4">
+        <div class="container text-center">
+            &copy; <span id="year"></span> Sobre Gatos
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
